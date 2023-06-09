@@ -1,7 +1,7 @@
 <p align="center"><img src="WaveEngine.png" width=250 height=250></p>
 <h2 align="center">WaveEngine.</h2>
 
-<p align="center"><img src="https://img.shields.io/github/stars/xzripper/WaveEngine?color=white&style=for-the-badge"> <img src="https://img.shields.io/github/issues/xzripper/WaveEngine?color=white&style=for-the-badge"> <img src="https://img.shields.io/github/v/tag/xzripper/WaveEngine?color=white&style=for-the-badge"> <img src="https://img.shields.io/github/commit-activity/m/xzripper/WaveEngine?color=white&style=for-the-badge"> <img src="https://img.shields.io/github/last-commit/xzripper/WaveEngine?color=white&style=for-the-badge"></p>
+<p align="center"><img src="https://img.shields.io/github/stars/xzripper/WaveEngine?color=white&style=for-the-badge"> <img src="https://img.shields.io/github/v/tag/xzripper/WaveEngine?color=white&style=for-the-badge"> <img src="https://img.shields.io/github/commit-activity/w/xzripper/WaveEngine?color=white&style=for-the-badge"> <img src="https://img.shields.io/github/last-commit/xzripper/WaveEngine?color=white&style=for-the-badge"></p>
 <p align="center"><img src="https://img.shields.io/github/languages/top/xzripper/WaveEngine?color=white&style=for-the-badge"> <img src="https://img.shields.io/github/languages/count/xzripper/WaveEngine?color=white&style=for-the-badge"> <img src="https://www.codefactor.io/repository/github/xzripper/waveengine/badge?style=for-the-badge"></p>
 <p align="center"><img src="https://img.shields.io/github/license/xzripper/WaveEngine?color=white&style=for-the-badge"></p>
 
