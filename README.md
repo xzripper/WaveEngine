@@ -1,4 +1,4 @@
-<p align="center"><img src="WaveEngine.png" width=250 height=250></p>
+<p align="center"><img src="WaveEngine.png" width=350 height=350></p>
 <h2 align="center">WaveEngine.</h2>
 
 <p align="center"><img src="https://img.shields.io/github/stars/xzripper/WaveEngine?color=white&style=for-the-badge"> <img src="https://img.shields.io/github/v/tag/xzripper/WaveEngine?color=white&style=for-the-badge"> <img src="https://img.shields.io/github/commit-activity/w/xzripper/WaveEngine?color=white&style=for-the-badge"> <img src="https://img.shields.io/github/last-commit/xzripper/WaveEngine?color=white&style=for-the-badge"></p>
@@ -47,8 +47,10 @@ Key Features of WaveEngine:
   <p><img src="Media\CMake.png"></p>
 
   <p><b>CMAKE:</b> Replace <code>#PROJECT</code> with your project name (in CMake), also replace <code>#FILES</code> with files you need to compile without considering engine files. If your project has only <code>main.cpp</code> set <code>#FILES</code> to <code>main.cpp</code>.</p>
+  <p><b>CMAKE:</b> Also make sure that your CMake doesn't have this line: <code>set(CMAKE_CXX_STANDARD, INTEGER)</code>, because this code breaks WaveEngine dependencies.</p><br>
 
-  <p><b>IDE:</b> Set your compiler to Visual Studio, after set CMake configuration to <code>Release</code>.</p>
+  <p><b>IDE:</b> Set your compiler to Visual Studio, after set CMake configuration to <code>Release</code>.</p><br>
+  
   <p><b>Done!</b></p>
 
   <h3>Other build systems.</h3>
@@ -63,4 +65,4 @@ Key Features of WaveEngine:
   <a href="https://github.com/users/xzripper/projects/4/"><img src="Media\EngineTable.png"></a>
 </div>
   
-<hr><p align="center">Have a good day!</p>
+<hr><p align="center">That's it, have a good day!</p>
