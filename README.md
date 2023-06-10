@@ -46,6 +46,8 @@ Key Features of WaveEngine:
 
   <p><img src="Media\CMake.png"></p>
 
+  <p><b>SDK:</b> Dowload engine main dependency (P3D) <a href="https://mega.nz/file/TGwmRKYR#Mv3t5JS6eKWzRN2iLaik8CzMpQPTtAfqId63iNGl4VM">here</a>. After unpack <code>include</code> and <code>lib</code> into <code>WaveEngine/p3d/</code>.</p>
+
   <p><b>CMAKE:</b> Replace <code>#PROJECT</code> with your project name (in CMake), also replace <code>#FILES</code> with files you need to compile without considering engine files. If your project has only <code>main.cpp</code> set <code>#FILES</code> to <code>main.cpp</code>.</p>
   <p><b>CMAKE:</b> Also make sure that your CMake doesn't have this line: <code>set(CMAKE_CXX_STANDARD, INTEGER)</code>, because this code breaks WaveEngine dependencies.</p><br>
 
