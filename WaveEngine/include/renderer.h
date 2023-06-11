@@ -31,14 +31,6 @@ public:
     }
 
     /**
-     * Specify renderer requirements.
-     *
-     * @param p_framework Panda framework.
-     * @param w_framework Window.
-     */
-     void specifyRendererRequirements(PandaFramework *p_framework, WindowFramework *window);
-
-    /**
      * Render model.
      *
      * @param model Model to render.

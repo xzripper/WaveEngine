@@ -2,11 +2,6 @@
 
 #include "wavelog.h"
 
-void Renderer::specifyRendererRequirements(PandaFramework *p_framework, WindowFramework *window) {
-    this->p_framework = p_framework;
-    this->window = window;
-}
-
 void Renderer::renderModel(Model model) const {
     model.model->reparent_to(this->window->get_render());
 }
