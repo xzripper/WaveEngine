@@ -13,10 +13,6 @@ void Window::initialize() {
 
     this->p_framework->set_window_title(this->window_title);
 
-//    load_prc_file_data("", "notify-level error");
-//    load_prc_file_data("", "default-directnotify-level error");
-
-    load_prc_file_data("", "show-frame-rate-meter true");
     load_prc_file_data("", "gl-debug #t");
     load_prc_file_data("", StringFormat::format("win-size %1 %2", std::vector<std::string> {std::to_string(this->window_size[0]), std::to_string(this->window_size[1])}));
     load_prc_file_data("", StringFormat::format("win-origin %1 %2", std::vector<std::string> {std::to_string(this->window_position[0]), std::to_string(this->window_position[1])}));
