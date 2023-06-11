@@ -40,6 +40,9 @@ Key Features of WaveEngine:
   <p><b>EXAMPLE:</b> Importing custom models in WaveEngine.</p>
 
   <h3>Installation.</h3>
+  <h4><b>WARNING! The minimal C++ version is C++17.</b></h4>
+  <h4><b>WARNING! The minimal MSVC version is 1430.</b></h4>
+
   <h4>CMake.</h4>
 
   <p><b>CMakeLists.txt should correctly look like...:</b></p>
@@ -52,12 +55,17 @@ Key Features of WaveEngine:
   <p><b>CMAKE:</b> Also make sure that your CMake doesn't have this line: <code>set(CMAKE_CXX_STANDARD, INTEGER)</code>, because this code breaks WaveEngine dependencies.</p><br>
 
   <p><b>IDE:</b> Set your compiler to Visual Studio, after set CMake configuration to <code>Release</code>.</p><br>
+  <p><b>IDE:</b> Also make sure to set architecture to <code>amd64</code>.</p><br>
   
   <p><b>Done!</b></p>
 
-  <h3>Other build systems.</h3>
+  <h4>Other build systems.</h4>
 
   <p><b>Right now it's unkown how to build on another systems, but you should play with it! Also, TODO.</b></p>
+
+  <h4>Possible errors.</h4>
+  <p><b>0xc0000135</b>: Install <a href="https://www.panda3d.org/download/">full</a> Panda3D SDK. In installation set to install all C++ libraries. After add to global variables <code>PATH={PATH_TO_PANDA3D_SDK\bin</code>. Replace <code>PATH_TO_PANDA3D_SDK</code> with installed SDK path. If still error stays, add <code>PATH={PATH_TO_PANDA3D_SDK\bin</code> to <code>Environment variables</code>. Replace <code>PATH_TO_PANDA3D_SDK</code> with installed SDK path.</p>
+  <p><b>A lot of messy errors.</b>: Check your CMake and engine installation. If everything is right pull the new issue.</p>
 
   <h3>Engine documentation.</h3>
   <p><b>Right now there is no documentation for engine, because engine functional is too small, and engine is very young and raw, documentation will appear in next releases.</b></p>
