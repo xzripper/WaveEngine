@@ -5,12 +5,16 @@
 
 #include <iostream>
 
+#include "../p3d/include/textureStage.h"
 #include "../p3d/include/texturePool.h"
 #include "../p3d/include/texture.h"
+
+enum TextureModes { Modulate, Add, Decal, Blend };
 
 class WTexture {
 public:
     Texture *wtexture;
+    TextureStage *texture_stage = new TextureStage("wtexture_texture_stage");
 
     /**
      * Load new texture.
@@ -22,9 +26,16 @@ public:
     }
 
     /**
+     * Set texture mode.
+     *
+     * @param mode Texture mode.
+     */
+    void setTextureMode(TextureModes mode) const;
+
+    /**
      * Get texture.
      */
-     Texture* get_texture() const { return this->wtexture; }
+     Texture* getTexture() const { return this->wtexture; }
 };
 
 #endif
