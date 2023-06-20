@@ -61,7 +61,7 @@ Key Features of WaveEngine:
 
   <h4>Other build systems.</h4>
 
-  <p><b>Right now it's unkown how to build on another systems, but you should play with it! Also, TODO.</b></p>
+  <p><b>Right now it's unknown how to build on another systems, but you should play with it! Also, TODO.</b></p>
 
   <h4>Possible errors.</h4>
   <p><b>0xc0000135</b>: Install <a href="https://www.panda3d.org/download/">full</a> Panda3D SDK. In installation set to install all C++ libraries. After add to global variables <code>PATH={PATH_TO_PANDA3D_SDK\bin</code>. Replace <code>PATH_TO_PANDA3D_SDK</code> with installed SDK path. If still error stays, add <code>PATH={PATH_TO_PANDA3D_SDK\bin</code> to <code>Environment variables</code>. Replace <code>PATH_TO_PANDA3D_SDK</code> with installed SDK path.</p>
