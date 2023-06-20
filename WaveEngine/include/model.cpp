@@ -49,7 +49,12 @@ void Model::addRotation(int x, int y, int z) const {
 }
 
 void Model::setTexture(WTexture texture) const {
-    this->model->set_texture(texture.get_texture(), 1);
+    this->model->set_texture(texture.texture_stage, texture.getTexture());
+}
+
+void Model::normalizeTexture(const Window &window) const {
+    this->model->set_tex_gen(TextureStage::get_default(), TexGenAttrib::M_world_position);
+    this->model->set_tex_projector(TextureStage::get_default(), window.window->get_render(), *this->model);
 }
 
 void Model::wireframe() const {

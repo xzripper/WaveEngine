@@ -101,6 +101,8 @@ public:
       */
      void setTexture(WTexture texture) const;
 
+     void normalizeTexture(const Window &window) const;
+
      /**
       * Enable/disable wireframe.
       */
