@@ -1,3 +1,5 @@
+<h1 align="center"><i>━━━━━ <b>HALTED</b> ━━━━━</i></h1>
+
 <p align="center"><img src="WaveEngine.png" width=350 height=350></p>
 <h2 align="center">WaveEngine.</h2>
 
